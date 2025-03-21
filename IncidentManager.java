@@ -23,7 +23,7 @@ public class IncidentManager {
 
     public IncidentManager() {
         try {
-            mongoClient = MongoClients.create("mongodb+srv://kesavvvvv_:Kesav.3999@oops-dsa-project.cmhua.mongodb.net/?retryWrites=true&w=majority&appName=OOPs-DSA-Project");
+            mongoClient = MongoClients.create("PRIVATE ID");
             database = mongoClient.getDatabase("CIRS");
             collection = database.getCollection("incidents");
             loadIncidentsFromDatabase();
